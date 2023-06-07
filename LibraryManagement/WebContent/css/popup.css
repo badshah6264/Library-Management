@@ -1,0 +1,16 @@
+.popup{
+	margin:auto;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	height:200px;
+	width:400px;
+	border: 2px solid blue;
+}
+
+.plink{
+	padding:5px 10px;
+	border:1px solid black;
+	text-decoration: none;
+}

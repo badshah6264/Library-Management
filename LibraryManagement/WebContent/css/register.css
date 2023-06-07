@@ -1,0 +1,112 @@
+body{
+	background-color:#c6e2ff;
+}
+
+.fa{
+	color: blue;
+}
+
+
+.container{
+    position: fixed;
+    top: 35%;
+    left: 32%;
+    z-index: -2;
+    color: #cfe6ff;
+}
+
+.container a{
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    text-decoration: none;
+    color:#cfe6ff;
+}
+
+
+
+.box{
+    margin: 11px 0px;
+	border-bottom: 1px solid blue;
+}
+
+.box input{
+    width: 260px;
+    padding: 7px;
+    background: none;
+    border: none;
+    outline: none;
+    
+    color:blue;
+}
+
+.container a:hover{
+    color: #a00000;
+}
+
+.box input::placeholder {
+    color:blue;
+    opacity: 0.6;
+}
+
+/* Eye button */
+
+#show{
+    display: none;
+    width: 20px;
+}
+
+#hide{
+    width: 20px;
+}
+
+#show1{
+    display: none;
+    width: 20px;
+}
+
+#hide1{
+    width: 20px;
+}
+
+#show2{
+    display: none;
+    width: 20px;
+}
+
+#hide2{
+    width: 20px;
+}
+
+#hideandseek{
+    display: inline-block;
+}
+
+#hideandseek1{
+    display: inline-block;
+}
+
+#hideandseek2{
+    display: inline-block;
+}
+
+/* Login Button */
+
+.bttn{
+    display: block;
+    margin: 30px auto;
+    padding: 5px;
+    width: 95px;
+    border: 3px solid blue;
+    background-color:#c6e2ff;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    color: blue;
+}
+
+.bttn:hover{
+    background-color: blue;
+    color: white;
+}

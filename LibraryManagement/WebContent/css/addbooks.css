@@ -1,0 +1,110 @@
+
+
+.addbookform::before{
+	content:"";
+	position:absolute;
+	top:105px;
+	left:0px;
+	z-index:-1;
+	background: url('../img/addbookbg.jpeg') no-repeat center center/cover;
+	width:100%;
+	height: 655px;
+	opacity: .5;
+}
+
+
+.addbookform{
+	flex-direction:column;
+	display:flex;
+	height:auto;
+	width:400px;
+	/* border: 2px solid black; */
+	margin-left: 880px;
+    margin-top: 150px;
+    padding: 20px;
+    justify-content:center;
+    align-items: center;
+}
+
+.addbookform input{
+	width:350px;
+	font-size:20px;
+	margin: 5px;
+    padding: 3px 10px;
+    background: transparent;
+    border: none;
+    border-left: 3px solid blue;
+    border-right: 3px solid blue;
+    outline: none;
+}
+ 
+::placeholder{
+	color: blue;
+}
+
+.button {
+  display: inline-flex;
+  height: 28px;
+  width: 99px;
+  border: 2px solid blue;
+  
+  color: blue;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+#button-6 {
+	
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button-6 a {
+  position: relative;
+  transition: all .45s ease-Out;
+}
+
+#spin {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  left: 70px;
+  top: 20px;
+  transform: rotate(0deg);
+  background: none;
+  position: absolute;
+  transition: all .5s ease-Out;
+}
+
+#button-6:hover #spin {
+  width: 200%;
+  height: 500%;
+  opacity: 1;
+  left: -70px;
+  top: -70px;
+  background: blue;
+  transform: rotate(80deg);
+}
+
+#button-6:hover a {
+  color: white;
+}
+
+.btn{
+	
+	border: none;
+    background: transparent;
+	margin: 20px;
+}

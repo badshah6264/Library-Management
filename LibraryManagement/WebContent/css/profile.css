@@ -1,0 +1,32 @@
+.pcontainer{
+	margin:20px 0px;
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pheading{
+	text-align:center;
+	border-bottom: 2px solid blue;
+}
+
+label{
+	font-size:20px;
+	display: inline-block;
+}
+
+.pinfo{
+	display:inline-block;
+	font-size: 20px;
+	
+} 
+
+.logoutbtn{
+	    width: 80px;
+    display: block;
+    text-align: center;
+    padding: 10px 5px;
+    border: 1px solid blue;
+    margin: auto;
+}
